@@ -1,0 +1,28 @@
+.main {
+
+  &__text {
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 150px;
+  }
+
+  &__layout {
+    display: inline-block;
+    color: white;
+    border-radius: 70px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #3B94D9;
+    float: right;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #1da1f2;
+    }
+  }
+}
